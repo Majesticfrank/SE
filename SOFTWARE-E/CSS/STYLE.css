@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(231, 108, 20);
+}
+.over{
+    background-color: white;
+    width: 60%;
+    height: 130%;
+    margin-left: 350px;
+    margin-top: 60px;
+}
+
+header img{
+margin-left: 530px;
+    width:150px;
+    height: 150px;
+    margin-top: 40px;
+}
+
+.text1{
+margin-top: 20px;
+text-align: center;
+}
+
+.text1 span{
+    
+    color:  rgb(231, 108, 20);
+}
+
+section .text{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+
+
+form{
+margin-left: 40px;
+margin-top: 10px;
+padding-left: 20px;
+}
+
+    
+
+.text{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text h2{
+    padding-right: 400px;
+    padding-top: 50px;
+}
+
+.form-box{
+    margin: 40px;
+    padding: 20px;
+    }
+    
+.set1 input {
+    margin: 20px 0 ;
+    padding:12px 40px;
+
+    
+}
+
+.set2{
+    position: relative;
+    left: 500px;
+    bottom: 255px;
+    
+}
+
+.set2 input{
+    margin: 20px 0 ;
+    padding:12px 40px;
+    
+}
+.textbox1{
+    border: 6px saddlebrown;
+    border-radius: 10px;
+}
+
+.textbox1 input{
+    margin-left: 20px;
+}
+
+.textbox2 input{
+    margin-left: 40px;
+}
+
+.textbox3 input{
+    margin-left: 75px;
+}
+
+.phone input{
+    margin-left: 8px;
+
+}
+form label{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+
+.set3{
+    position: relative;
+    bottom: 200px;
+    padding: 20px;
+}
+
+
+ 
+
+.gender label{
+margin-right: 30px;
+    padding-left: 80px;
+}
+
+
+.programme{
+    margin-top: 60px;
+}
+.programme select{
+    padding: 2px 20px;
+}
+.level{
+    position: relative;
+    left: 500px;
+    bottom: 18px;
+}
+
+.level #level{
+    margin-left: 20px;
+}
+
+.semester{
+position: relative;
+top: 40px;
+}
+
+.semester #semester{
+    margin-left: 110px;
+}
+
+.mybutton{
+position: relative;
+bottom: 80px;
+left: 400px;
+}
+.mybutton {
+    padding: 7px 70px;
+    background-color: white;
+    box-shadow: 6px 6px 15px rgb(26, 25, 24);
+    cursor: pointer ;
+    color: rgb(231, 108, 20);
+    font-weight: 900;
+    font-size: 1.2em;
+    border-radius: 3px;
+}
+
+@media
