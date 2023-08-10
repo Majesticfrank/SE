@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    background-image: url(../images/back.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+
+}
+
+.header1{
+    background-color: rgb(218, 95, 7);
+    height: 4%;
+    
+}
+.images{
+    margin-left: 300px;
+}
+.header1 img{
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+
+}
+
+.Navlink {
+    float: right;
+    position: relative;
+    bottom: 20px;
+}
+
+.Navlink ul{
+    display: flex;
+    padding-right: 200px;
+}
+
+.Navlink ul li{
+    list-style: none;
+    padding-left: 5px;
+}
+.Navlink ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.Navlink img{
+    position: relative;
+    right: 60px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.header2 .ken{
+    height: 120px;
+    position: relative;
+    left:100px;
+    margin-top: 29px;
+
+}
+
+.header2 .left-Navlink{
+    float: right;
+
+
+}
+.left-Navlink ul{
+    display: flex;
+    padding:20px;
+    
+}
+.left-Navlink ul li{
+    padding-left: 30px;
+    list-style: none;
+    padding-right: 25px;
+    margin-top: 20px;
+}
+
+.left-Navlink ul li a{
+    text-decoration: none;
+    color: saddlebrown;
+    font-size: 0.9em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.box-shadow{
+    background: rgb(243, 144, 74);
+    padding:3em;
+    position: relative;
+    width: 60%;
+    height: 50%;
+    left: 400px;
+    top: 150px;
+    box-shadow: 20px 20px 20px black;
+}
+
+.box-shadow .text1{
+    margin-left: 400px;
+    font-size: 2.9em;
+    font-weight: 700;
+    color: white;
+}
+
+.box-shadow .text2{
+    font-size: 1.8em;
+    margin-top: 30px;
+    color:rgb(110, 107, 107);
+    font-weight: 600;
+}
+
+.box-shadow .buttons{
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    
+}
+.box-shadow .reg{
+    padding:7px 20px;
+    margin: 15px;
+    border-radius: 5px;
+    background: saddlebrown;
+    
+}
+.box-shadow .reg a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+.box-shadow .view{
+    padding: 7px 20px;
+    margin: 15px;
+    border-radius: 5px;
+    border: solid white 2px;
+}
+
+.box-shadow .view a{
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 800;
+    color: saddlebrown;
+    transition: 2sec;
+}
+.box-shadow .view:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.box-shadow .reg:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+
+
+.box-shadow img{
+    height: 70px;
+}
